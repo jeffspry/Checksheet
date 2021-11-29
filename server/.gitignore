@@ -12,3 +12,4 @@ database/*.sqlite
 
 
 *.log
+user_bearer_tokens.log
