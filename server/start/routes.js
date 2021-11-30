@@ -35,5 +35,8 @@ Route.group( () => {
   Route.delete('tasks/:id', 'TaskController.destroy').middleware('auth')
   Route.patch('tasks/:id', 'TaskController.update').middleware('auth')
 
+  //unit
+  Route.post('unit/create','UnitController.create')
+
 
 }).prefix('api')
