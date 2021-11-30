@@ -12,6 +12,7 @@ class TaskSchema extends Schema {
       table.string('status', 55)
       table.string('status_note', 255)
       table.integer('status_color')
+      table.boolean('completed')
       table.timestamps()
     })
   }
